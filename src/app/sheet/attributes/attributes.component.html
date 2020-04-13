@@ -1,0 +1,41 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Attributes</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <table mat-table [dataSource]="attributesArray" class="attribute-table">
+      <ng-container matColumnDef="score">
+        <th mat-header-cell *matHeaderCellDef>Attribute</th>
+        <td mat-cell *matCellDef="let element">
+          <mat-form-field class="attribute" appearance="outline">
+            <mat-label>{{ element.label }}</mat-label>
+            <input
+              matInput
+              [(ngModel)]="element.score"
+              (change)="updateCharacter()"
+              maxlength="2"
+            />
+          </mat-form-field>
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="adjustments">
+        <th mat-header-cell *matHeaderCellDef>Adjustments</th>
+        <td mat-cell *matCellDef="let element">
+          <mat-form-field
+            class="attribute"
+            appearance="outline"
+            *ngFor="let adjust of element.adjustments"
+          >
+            <mat-label>{{ adjust.label }}</mat-label>
+            <input
+              matInput
+              [(ngModel)]="adjust.value"
+              (change)="updateCharacter()"
+            />
+          </mat-form-field>
+        </td>
+      </ng-container>
+      <tr mat-row *matRowDef="let row; columns: attributesColumns"></tr>
+    </table>
+  </mat-card-content>
+</mat-card>

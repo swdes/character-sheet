@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body {
+  background-color: cadetblue;
+  margin: 0;
+}
+mat-card {
+  margin-bottom: 20px;
+}
+
+.desc {
+  width: 100%;
+}
+.mat-form-field {
+  margin-top: 1.34375em;
+  margin-right: 20px;
+}
+
+.small-input {
+  width: 100px;
+}
+.large-input {
+  width: 90%;
+}
+table {
+  width: 100%;
+}
+td.mat-cell {
+  border-bottom-style: none;
+  border-bottom-width: 0;
+}
+mat-card {
+  background-color: rgba(255, 255, 255, 0.95);
+}

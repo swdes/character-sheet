@@ -1,0 +1,54 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      <span>Notebook</span>
+      <button
+        mat-icon-button
+        aria-label="Example icon-button with a heart icon"
+        (click)="addNote()"
+      >
+        <mat-icon>add_circle</mat-icon>
+      </button>
+    </mat-card-title>
+  </mat-card-header>
+  <table mat-table [dataSource]="notebook" class="notebook">
+    <ng-container matColumnDef="date">
+      <th mat-header-cell *matHeaderCellDef>Date</th>
+      <td mat-cell *matCellDef="let element">
+        <mat-form-field appearance="outline" class="small-input">
+          <input
+            matInput
+            [(ngModel)]="element.date"
+            (change)="updateNotebook()"
+          />
+        </mat-form-field>
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="description">
+      <th mat-header-cell *matHeaderCellDef>Note</th>
+      <td mat-cell *matCellDef="let element">
+        <mat-form-field appearance="outline" class="desc large-input">
+          <textarea
+            matInput
+            [(ngModel)]="element.description"
+            (change)="updateNotebook()"
+          ></textarea>
+        </mat-form-field>
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef></th>
+      <td mat-cell *matCellDef="let index = index">
+        <button
+          mat-icon-button
+          aria-label="Example icon-button with a heart icon"
+          (click)="removeNote(index)"
+        >
+          <mat-icon>delete</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="notebookColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: notebookColumns"></tr>
+  </table>
+</mat-card>

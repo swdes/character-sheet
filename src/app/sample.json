@@ -1,0 +1,130 @@
+{
+  "name": "Trump",
+  "creationDate": "2015-01-01",
+  "race": "human",
+  "class": [
+    {
+      "label": "Thief",
+      "level": 6,
+      "xp": 100000,
+      "xpBonus": 1.1
+    },
+    {
+      "label": "Cleric",
+      "level": 6,
+      "xp": 100000,
+      "xpBonus": 1.1
+    }
+  ],
+  "alignment": "Neutral Good",
+  "attributes": {
+    "strength": {
+      "score": "11",
+      "adjustments": {
+        "hit probability": -3,
+        "damage adjustement": 2,
+        "weight allowance": 300,
+        "open doors": "2",
+        "band bars/lift gates": 67
+      }
+    },
+    "intelligence": {
+      "score": "11",
+      "adjustments": {
+        "chance to know each listed spell": 35,
+        "minimum number of spells/level": 5,
+        "maximum number of spells/level": 18
+      }
+    },
+
+    "wisdom": {
+      "score": "11",
+      "adjustments": {
+        "magical attack adjustment": 3,
+        "spell bonus": "One 2nd spell",
+        "chance of spell failure": 0
+      }
+    },
+
+    "dexterity": {
+      "score": "11",
+      "adjustments": {
+        "reaction/attacking adjustment": 3,
+        "defensive adjustment": -4
+      }
+    },
+
+    "constitution": {
+      "score": "15",
+      "adjustments": {
+        "hit point adjustement": 3,
+        "system shock survival": 98,
+        "resurection survival": 99
+      }
+    },
+
+    "charisma": {
+      "score": "11",
+      "adjustments": {
+        "maximum number of henchmen": 8,
+        "loyalty base": 20,
+        "reaction adjustment": 15
+      }
+    }
+  },
+  "thiefSkills": [
+    { "label": "climb", "score": 89 },
+    { "label": "hide in shadows", "score": 23 },
+    { "label": "move silently", "score": 32 },
+    { "label": "remove traps", "score": 13 },
+    { "label": "open locks", "score": 10 },
+    { "label": "pick pocket", "score": 10 }
+  ],
+  "savingThrows": [
+    { "label": "Paralyzation, Poison, or Death Magic", "score": 10 },
+    { "label": "Rod, Staff, or Wand", "score": 10 },
+    { "label": "Petrification or Polymorph", "score": 10 },
+    { "label": "Breath Weapon", "score": 10 },
+    { "label": "Spell", "score": 10 }
+  ],
+  "vadeRetro": [
+    { "label": "skeletons", "score": "death" },
+    { "label": "zombies", "score": 10 },
+    { "label": "vampires", "score": 16 },
+    { "label": "lichs", "score": 20 },
+    { "label": "demons", "score": "not possible" }
+  ],
+  "AC": {
+    "score": 1,
+    "dexterityBonus": -2
+  },
+  "TAC0": {
+    "score": 18,
+    "strengthBonus": 0
+  },
+  "hitPoints": {
+    "maxLevel": 30,
+    "currentLevel": 7,
+    "increasePerLevel": "1D7",
+    "constiutionBonus": 0
+  },
+  "spells": [
+    {
+      "class": "cleric",
+      "label": "Minor heals",
+      "level": 1,
+      "components": "VSM",
+      "description": "heals 1D8 hit points"
+    }
+  ],
+  "equipment": [
+    { "label": "sword +1", "cost": 100, "weight": 20 },
+    { "label": "bag of 12 gems", "cost": 500, "weight": 5 }
+  ],
+  "notebook": [
+    {
+      "date": "2020-03-26",
+      "description": "The group killed the big boss"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+<div id="sheet">
+  <div fxLayout="row" fxLayoutAlign="space-between start">
+    <mat-card id="sheet-top">
+      <mat-card-content>
+        <mat-form-field appearance="outline" class="large-input">
+          <mat-label>Name</mat-label>
+          <input
+            matInput
+            placeholder="Roger Abitbol"
+            [(ngModel)]="character.name"
+            (change)="updateCharacter()"
+          />
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Alignment</mat-label>
+          <mat-select
+            [(ngModel)]="character.alignment"
+            (blur)="updateCharacter()"
+          >
+            <mat-option
+              *ngFor="let alignment of alignments"
+              [value]="alignment"
+              >{{ alignment }}</mat-option
+            >
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Race</mat-label>
+          <mat-select [(ngModel)]="character.race" (blur)="updateCharacter()">
+            <mat-option *ngFor="let race of races" [value]="race">{{
+              race
+            }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="score">
+          <mat-label>AC</mat-label>
+          <input
+            matInput
+            [(ngModel)]="character.AC.score"
+            (change)="updateCharacter()"
+            maxlength="3"
+          />
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="score">
+          <mat-label>TAC0</mat-label>
+          <input
+            matInput
+            [(ngModel)]="character.TAC0.score"
+            (change)="updateCharacter()"
+            maxlength="3"
+          />
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="score">
+          <mat-label>Current hit points</mat-label>
+          <input
+            matInput
+            [(ngModel)]="character.hitPoints.currentLevel"
+            (change)="updateCharacter()"
+            maxlength="3"
+          />
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="score">
+          <mat-label>Max hit points</mat-label>
+          <input
+            matInput
+            [(ngModel)]="character.hitPoints.maxLevel"
+            (change)="updateCharacter()"
+            maxlength="3"
+          />
+        </mat-form-field>
+      </mat-card-content>
+    </mat-card>
+    <mat-card id="sheet-pic">
+      <img mat-card-image src="{{ character.picUrl }}" />
+      <mat-card-actions>
+        <button mat-button (click)="openDialog()">CHANGE</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  <sheet-class [(characterClasses)]="character.class"></sheet-class>
+  <sheet-attributes [(attributes)]="character.attributes"></sheet-attributes>
+  <div
+    fxLayout="row wrap"
+    fxLayoutGap="20px"
+    fxLayoutAlign="flex-start stretch"
+  >
+    <sheet-savings
+      fxFlex="0 1 calc(33.3% - 20px)"
+      [(savingThrows)]="character.savingThrows"
+    ></sheet-savings>
+    <sheet-thief-skills
+      fxFlex="0 1 calc(33.3% - 20px)"
+      *ngIf="thiefLevel"
+      [(thiefSkills)]="character.thiefSkills"
+    ></sheet-thief-skills>
+    <sheet-vaderetro
+      fxFlex="0 1 calc(33.3% - 20px)"
+      *ngIf="clericLevel"
+      [(clericLevel)]="clericLevel"
+    ></sheet-vaderetro>
+  </div>
+  <sheet-spell
+    [(spells)]="character.spells"
+    [(wisdomScore)]="character.attributes.wisdom.score"
+    [(intelligenceScore)]="character.attributes.intelligence.score"
+    [(class)]="character.class"
+  ></sheet-spell>
+  <sheet-equipment [(equipment)]="character.equipment"></sheet-equipment>
+  <sheet-notebook [(notebook)]="character.notebook"></sheet-notebook>
+  <button mat-raised-button (click)="exportSheet()">Export</button>
+  <button mat-raised-button (click)="removeCharacter()">Remove</button>
+</div>

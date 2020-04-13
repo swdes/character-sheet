@@ -1,0 +1,54 @@
+#sheet {
+  padding: 20px;
+}
+table {
+  width: 100%;
+}
+mat-card {
+  margin-bottom: 20px;
+}
+.spells {
+  width: 100%;
+}
+.equipment {
+  width: 100%;
+}
+
+.class {
+  width: 100%;
+}
+
+.attribute {
+  width: 30px;
+}
+
+.vr-score {
+  width: 100px;
+}
+
+.score {
+  width: 120px;
+}
+
+#sheet {
+  background-image: url("https://magazineclonerepub.blob.core.windows.net/mcepub/2786/175386/image/77d71a04-19fc-4a50-95c2-5a6accaa7e47.jpg");
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+
+mat-card {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+#sheet-top {
+  width: 100%;
+  margin-right: 20px;
+}
+#sheet-pic {
+  width: 300px;
+}
+div[fxLayoutAlign] {
+  padding: 0px;
+}
+.mat-raised-button {
+  margin-right: 20px;
+}

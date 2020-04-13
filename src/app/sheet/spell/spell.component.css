@@ -1,0 +1,48 @@
+table {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+td.mat-cell {
+  border-bottom-style: none;
+  border-bottom-width: 0;
+}
+mat-card {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+table {
+  width: 100%;
+}
+
+tr.example-detail-row {
+  height: 0;
+}
+
+tr.example-element-row:not(.example-expanded-row):hover {
+  background: whitesmoke;
+}
+
+tr.example-element-row:not(.example-expanded-row):active {
+  background: #efefef;
+}
+
+.example-element-row td {
+  border-bottom-width: 0;
+}
+
+.example-element-detail {
+  overflow: hidden;
+  display: flex;
+}
+
+textarea {
+  height: 120px;
+}
+
+.example-detail-row {
+  background: white;
+}
+.spell-per-level {
+  background-color: rgba(0, 0, 0, 0.1);
+}

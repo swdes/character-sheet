@@ -1,0 +1,27 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Thief skills</mat-card-title>
+  </mat-card-header>
+  <mat-card-content *ngIf="thiefSkills">
+    <table mat-table [dataSource]="thiefSkills">
+      <ng-container matColumnDef="label">
+        <th mat-header-cell *matHeaderCellDef>Thief skills</th>
+        <td mat-cell *matCellDef="let element">{{ element.label }}</td>
+      </ng-container>
+      <ng-container matColumnDef="score">
+        <th mat-header-cell *matHeaderCellDef>Score</th>
+        <td mat-cell *matCellDef="let element">
+          <mat-form-field class="small-input" appearance="outline">
+            <input
+              matInput
+              [(ngModel)]="element.score"
+              (change)="updateStore()"
+              maxlength="3"
+            />
+          </mat-form-field>
+        </td>
+      </ng-container>
+      <tr mat-row *matRowDef="let row; columns: ['label', 'score']"></tr>
+    </table>
+  </mat-card-content>
+</mat-card>

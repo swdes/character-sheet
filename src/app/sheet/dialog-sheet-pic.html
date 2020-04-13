@@ -1,0 +1,13 @@
+<div mat-dialog-content>
+  <h1 mat-dialog-title>Choose a picture</h1>
+  <mat-form-field>
+    <mat-label>Cover image url</mat-label>
+    <input matInput [(ngModel)]="data.picUrl" />
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data.picUrl" cdkFocusInitial>
+    Save
+  </button>
+</div>
