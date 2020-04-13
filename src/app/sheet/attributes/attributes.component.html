@@ -27,11 +27,7 @@
             *ngFor="let adjust of element.adjustments"
           >
             <mat-label>{{ adjust.label }}</mat-label>
-            <input
-              matInput
-              [(ngModel)]="adjust.value"
-              (change)="updateCharacter()"
-            />
+            <input matInput [(ngModel)]="adjust.value" disabled />
           </mat-form-field>
         </td>
       </ng-container>
