@@ -3,6 +3,8 @@ import { SheetStore } from "../../store/sheet-store";
 
 import { standardClasses, getCurrentLevelInfo } from "../../model/class";
 
+import { pick } from "lodash";
+
 @Component({
   selector: "sheet-class",
   templateUrl: "./class.component.html",
@@ -26,11 +28,13 @@ export class ClassComponent implements OnChanges {
   constructor(private store: SheetStore) {}
 
   ngOnChanges(): void {
-    this.characterClasses = this.characterClasses.map((characterClass) => {
-      return {
-        ...characterClass,
-        ...getCurrentLevelInfo(characterClass.label, characterClass.xp),
-      };
+    this.characterClasses.map((characterClass) => {
+      const decoratedClass = getCurrentLevelInfo(
+        characterClass.label,
+        characterClass.xp
+      );
+      characterClass.level = decoratedClass.level || 1;
+      characterClass.title = decoratedClass.title;
     });
     console.log("classes changed:", this.characterClasses);
   }
@@ -56,6 +60,11 @@ export class ClassComponent implements OnChanges {
 
   updateClass() {
     console.log("update class", this.characterClasses);
-    this.store.updateClasses([...this.characterClasses]);
+    // Save only interesting fields
+    this.store.updateClasses([
+      ...this.characterClasses.map((item) =>
+        pick(item, ["label", "level", "xp"])
+      ),
+    ]);
   }
 }

@@ -19,11 +19,12 @@ interface AC {
 }
 
 export interface Sheet {
-  id: String;
+  id: string;
   name: String;
   alignment?: string;
   race?: string;
-  creationDate?: any;
+  creationDate?: Date;
+  updateDate?: Date;
   class?: Array<Class>;
   attributes?: Attributes;
   thiefSkills?: Array<Object>;
@@ -43,6 +44,7 @@ export function getNewSheet(name = ""): Sheet {
     id: uuid.v4(),
     name,
     creationDate: new Date(),
+    updateDate: new Date(),
     race: "",
     class: [],
     alignment: "",

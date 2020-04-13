@@ -1,31 +1,48 @@
 import { Inject, Injectable } from "@angular/core";
 import { SheetState } from "./sheet-state";
 import { Store } from "./store";
-import SampleJson from "../sample.json";
 import { Sheet, getNewSheet } from "../model/sheet";
 import { first, take } from "rxjs/operators";
-
-import { environment } from "src/environments/environment";
-import { AngularFirestore } from "@angular/fire/firestore";
+import { AngularFirestore, DocumentSnapshot } from "@angular/fire/firestore";
 import * as uuid from "uuid";
+import moment from "moment";
 
 @Injectable()
 export class SheetStore extends Store<SheetState> {
   constructor(@Inject(AngularFirestore) protected firestore: AngularFirestore) {
     super(new SheetState());
+
+    // GET FROM LOCAL STORAGE
     const fromStorage = localStorage.getItem("character");
     //const character = fromStorage ? JSON.parse(fromStorage) : SampleJson;
     const character = fromStorage ? JSON.parse(fromStorage) : getNewSheet();
-
     // Patch for malformed data
     character.id = character.id || uuid.v4();
 
     this.setState({ character });
-    this.state$.subscribe((state) => {
-      console.log("persist in localstorage");
-      localStorage.setItem("character", JSON.stringify(state.character));
-      this.updateFirestore(state.character);
-    });
+
+    // GET FROM REMOTE AND SELECT THE MOST RECENT
+    this.firestore
+      .doc<Sheet>("characters/" + character.id)
+      .ref.get()
+      .then((documentSnapShot: DocumentSnapshot<Sheet>) => {
+        if (documentSnapShot.exists) {
+          // Compare dates
+          const data = documentSnapShot.data();
+          if (moment(data.updateDate).isAfter(character.updateDate)) {
+            this.setState({ character: data });
+          }
+        }
+      })
+      .then((d) => {
+        // After setting the state, subscribe
+        this.state$.subscribe((state) => {
+          state.character.updateDate = new Date();
+          console.log("persist in localstorage");
+          localStorage.setItem("character", JSON.stringify(state.character));
+          this.updateFirestore(state.character);
+        });
+      });
   }
 
   updateFirestore(character: Sheet) {

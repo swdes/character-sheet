@@ -24,6 +24,9 @@ export class AppComponent {
     private store: SheetStore
   ) {
     this.characters = firestore.collection("characters").valueChanges();
+    this.store.state$.subscribe((state) => {
+      this.selectedCharacterId = state.character.id;
+    });
     //this.loadCharacter(this.selected);
     console.log("AppComponent constructor ok");
   }

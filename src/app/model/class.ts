@@ -364,10 +364,65 @@ Over
     label: "Illusionist",
   },
   {
-    label: "Druid",
-  },
-  {
     label: "Thief",
+    hpDice: "d6",
+    advancementTable: [
+      {
+        level: 1,
+        minXp: 0,
+        title: "Rogue (Apprentice)",
+        hpDiceNumber: 1,
+        hpBonus: 0,
+      },
+      { level: 2, minXp: 1251, title: "Footpad", hpDiceNumber: 2, hpBonus: 0 },
+      { level: 3, minXp: 2501, title: "Cutpurse", hpDiceNumber: 3, hpBonus: 0 },
+      { level: 4, minXp: 5001, title: "Robber", hpDiceNumber: 4, hpBonus: 0 },
+      { level: 5, minXp: 10001, title: "Burglar", hpDiceNumber: 5, hpBonus: 0 },
+      { level: 6, minXp: 20001, title: "Filcher", hpDiceNumber: 6, hpBonus: 0 },
+      { level: 7, minXp: 42501, title: "Sharper", hpDiceNumber: 7, hpBonus: 0 },
+      { level: 8, minXp: 70001, title: "Magsman", hpDiceNumber: 8, hpBonus: 0 },
+      { level: 9, minXp: 110001, title: "Thief", hpDiceNumber: 9, hpBonus: 0 },
+      {
+        level: 10,
+        minXp: 160001,
+        title: "Master Thief",
+        hpDiceNumber: 10,
+        hpBonus: 0,
+      },
+      {
+        level: 11,
+        minXp: 220001,
+        title: "Master Thief",
+        hpDiceNumber: 10,
+        hpBonus: 2,
+      },
+    ],
+    rules: `An original basic character class, the thief specializes in stealth, pilfering, and similar skills.  The profession is not intrinsically dishonorable, but there is a tendency to distrust and in some quarters disdain such characters.
+    Thieves must have a dexterity of at least 9, and only their wisdom may be below 6; a thief with a dexterity above 15 gains a 10% bonus on his experience.  They are usually not allowed to be good, and never allowed to be lawful good; the majority are evil.  They gain d6 hit points per level, may use many different weapons, and are allowed some armor.  They also have very specific "thief skills" which improve with level.
+  
+    Picking pockets is an essential skill for thieves.  It includes stealing small objects, done by light touch and sleight of hand.  At first level, the character has a 30% chance of success; however, this roll may be penalized if an attempt is made to pick the pocket of an upper-level character.
+  
+    The thief has a 25% chance to open locks and other security devices.  Viking thieves do not have this skill, but are able to open barred doors, beginning with a 10% chance.
+  
+    The character is also skilled at finding and removing small traps, such as needle traps, springing blades, and other traps which could be used to protect a chest or other small container (not trapped doors, hallways, and other large-scale traps).  This begins at 20%, and is also unknown to Viking thieves.
+  
+    Moving silently is an essential part of the character's stealth abilities.  At level one, the character has a 15% chance of making no sound even when crossing a squeaky wooden floor.
+  
+    The thief can also hide in shadows, provided that there are shadows (and therefore light--the character is not invisible to infravision in total darkness) and the character is properly attired.  This begins as a 10% chance of success.
+  
+    There is a 10% chance that the level one character will be able to hear any noise which is there to hear when he stops and listens, such as by pressing his ear against a door.
+  
+    He can climb walls, provided the wall is typically rough and cracked; initially the chance of success is 85%.
+  
+    The thief gains added damage in the form of a multiplier--double damage at level one--when he strikes an enemy unexpected from behind.  This attack is referred to as a "backstab", and is bonused +4 on the chance to hit.
+  
+    All thieves speak a limited language called "Thieves' Cant", used primarily for planning jobs, but enabling all to speak with each other.
+  
+    They gain the limited ability to read other languages, as for example deciphering the writings on treasure maps.  This does not begin until level 4, and at that point is 20%.  At level 10, they can also read magical writings and cast spells from scrolls (not including cleric spells), although they frequently get the magic wrong.
+  
+    Thieves don't create freeholds or other domains; however, at level 10 they can create a fortress in or near a city, and attract 4d6 thieves by founding a guild.  If there is already a guild in the city (nearly always the case), there will be a guild war as a fight to the death between the two guilds.
+  
+    Thieves are permitted to wear simple leather armor without any penalty.  Under the arcana rules, thieves wearing no armor gain specific bonuses on some skills, and thieves may wear studded leather, padded armor, or elfin chain mail, but will not be permitted any dexterity bonuses on their skills, and will take a penalty on them as well.  Shield use is not permitted.  Weapons which are large, complex, or require loose pieces are not allowed; this leaves about a dozen weapons, several of them sword variants.`,
   },
   {
     label: "Monk",
@@ -493,7 +548,7 @@ export function getCurrentLevelInfo(characterClass: string, xp: number) {
   const currentLevelStats =
     classStats &&
     classStats.advancementTable &&
-    classStats.advancementTable.find((level) => level.minXp <= xp);
+    classStats.advancementTable.filter((level) => level.minXp <= xp).pop();
   //debugger;
   if (!currentLevelStats) return {};
   return {
