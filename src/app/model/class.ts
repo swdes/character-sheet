@@ -6,6 +6,18 @@ export interface Class {
   rules?: string;
 }
 
+const CLASS_TYPES = {
+  mage: ["mage", "illusionist"],
+  cleric: ["druid", "cleric"],
+  fighter: ["warrior", "ranger", "paladin"],
+  thief: ["thief", "assassin"],
+};
+export function getClassType(className: string): string {
+  return Object.keys(CLASS_TYPES).find((key) =>
+    CLASS_TYPES[key].includes(className.toLowerCase())
+  );
+}
+
 export const standardClasses: Array<Class> = [
   {
     label: "Cleric",
