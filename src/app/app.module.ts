@@ -19,14 +19,12 @@ import { MatIconModule } from "@angular/material/icon";
 import { UploadModule } from "./upload/upload.module";
 import { SheetModule } from "./sheet/sheet.module";
 
-import { SheetService } from "./sheet.service";
 import { SheetStore } from "./store/sheet-store";
 
 // Firebase
 import { AngularFireModule } from "@angular/fire";
 import { AngularFirestoreModule } from "@angular/fire/firestore";
 import { AngularFireAnalyticsModule } from "@angular/fire/analytics";
-//import { AngularFireFunctionsModule, REGION } from "@angular/fire/functions";
 import { environment } from "../environments/environment";
 
 @NgModule({

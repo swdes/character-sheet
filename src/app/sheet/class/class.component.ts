@@ -1,5 +1,10 @@
-import { Component, OnInit, Input, OnChanges } from "@angular/core";
+import { Component, OnInit, Input, OnChanges, Inject } from "@angular/core";
 import { SheetStore } from "../../store/sheet-store";
+import {
+  MatBottomSheet,
+  MatBottomSheetRef,
+  MAT_BOTTOM_SHEET_DATA,
+} from "@angular/material/bottom-sheet";
 
 import { standardClasses, getCurrentLevelInfo } from "../../model/class";
 
@@ -25,7 +30,10 @@ export class ClassComponent implements OnChanges {
     "actions",
   ];
 
-  constructor(private store: SheetStore) {}
+  constructor(
+    private store: SheetStore,
+    private _bottomSheet: MatBottomSheet
+  ) {}
 
   ngOnChanges(): void {
     this.characterClasses.map((characterClass) => {
@@ -35,6 +43,7 @@ export class ClassComponent implements OnChanges {
       );
       characterClass.level = decoratedClass.level || 1;
       characterClass.title = decoratedClass.title;
+      characterClass.rules = decoratedClass.rules;
     });
     console.log("classes changed:", this.characterClasses);
   }
@@ -66,5 +75,34 @@ export class ClassComponent implements OnChanges {
         pick(item, ["label", "level", "xp"])
       ),
     ]);
+  }
+
+  openInfo(index: number) {
+    this._bottomSheet.open(BottomSheetClassInfo, {
+      data: {
+        info: this.characterClasses[index].rules || "<work in progress>",
+      },
+    });
+  }
+}
+
+@Component({
+  selector: "bottom-sheet-class-info",
+  //templateUrl: "bottom-sheet-class-info.html",
+  template: `<div [innerHTML]="data.info | lineBreak"></div>`,
+})
+export class BottomSheetClassInfo {
+  constructor(
+    private _bottomSheetRef: MatBottomSheetRef<BottomSheetClassInfo>,
+    @Inject(MAT_BOTTOM_SHEET_DATA) public data: any
+  ) {}
+
+  openLink(event: MouseEvent): void {
+    this._bottomSheetRef.dismiss();
+    event.preventDefault();
+  }
+
+  lineBreak(value: string): string {
+    return "TEST" + value;
   }
 }

@@ -17,7 +17,10 @@
         <th mat-header-cell *matHeaderCellDef>Class</th>
         <td mat-cell *matCellDef="let element">
           <mat-form-field appearance="outline">
-            <mat-select [(ngModel)]="element.label" (blur)="updateClass()">
+            <mat-select
+              [(ngModel)]="element.label"
+              (ngModelChange)="updateClass()"
+            >
               <mat-option *ngFor="let class of CLASSES" [value]="class">{{
                 class
               }}</mat-option>
@@ -71,6 +74,9 @@
       <ng-container matColumnDef="actions">
         <th mat-header-cell *matHeaderCellDef></th>
         <td mat-cell *matCellDef="let index = index">
+          <button mat-icon-button (click)="openInfo(index)">
+            <mat-icon>info</mat-icon>
+          </button>
           <button
             mat-icon-button
             aria-label="Example icon-button with a heart icon"

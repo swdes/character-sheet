@@ -9,7 +9,7 @@ import { SheetComponent, DialogSheetPic } from "./sheet.component";
 import { NotebookComponent } from "./notebook/notebook.component";
 import { EquipmentComponent } from "./equipment/equipment.component";
 import { SpellComponent } from "./spell/spell.component";
-import { ClassComponent } from "./class/class.component";
+import { ClassComponent, BottomSheetClassInfo } from "./class/class.component";
 import { AttributesComponent } from "./attributes/attributes.component";
 import { SavingsComponent } from "./savings/savings.component";
 import { VaderetrosComponent } from "./vaderetros/vaderetros.component";
@@ -25,9 +25,13 @@ import { MatGridListModule } from "@angular/material/grid-list";
 import { MatSelectModule } from "@angular/material/select";
 import { MatIconModule } from "@angular/material/icon";
 import { MatDialogModule } from "@angular/material/dialog";
+import { MatBottomSheetModule } from "@angular/material/bottom-sheet";
 
 // Store
 import { SheetStore } from "../store/sheet-store";
+
+// Pipes
+import { LineBreakPipe } from "../lineBreakPipe";
 
 @NgModule({
   declarations: [
@@ -41,6 +45,8 @@ import { SheetStore } from "../store/sheet-store";
     VaderetrosComponent,
     ThiefSkillsComponent,
     DialogSheetPic,
+    BottomSheetClassInfo,
+    LineBreakPipe,
   ],
   imports: [
     CommonModule,
@@ -57,12 +63,13 @@ import { SheetStore } from "../store/sheet-store";
     MatSelectModule,
     MatIconModule,
     MatDialogModule,
+    MatBottomSheetModule,
   ],
   providers: [
     SheetStore,
     //{ provide: REGION, useValue: "europe-west3" }
   ],
   exports: [SheetComponent],
-  entryComponents: [DialogSheetPic],
+  entryComponents: [DialogSheetPic, BottomSheetClassInfo],
 })
 export class SheetModule {}

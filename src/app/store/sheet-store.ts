@@ -6,11 +6,14 @@ import { first, take } from "rxjs/operators";
 import { AngularFirestore, DocumentSnapshot } from "@angular/fire/firestore";
 import * as uuid from "uuid";
 import moment from "moment";
+import { connectableObservableDescriptor } from "rxjs/internal/observable/ConnectableObservable";
 
 @Injectable()
 export class SheetStore extends Store<SheetState> {
   constructor(@Inject(AngularFirestore) protected firestore: AngularFirestore) {
     super(new SheetState());
+
+    console.log("Store INIT");
 
     // GET FROM LOCAL STORAGE
     const fromStorage = localStorage.getItem("character");
@@ -21,15 +24,34 @@ export class SheetStore extends Store<SheetState> {
 
     this.setState({ character });
 
+    console.log("Store initated", this.state.character);
+
     // GET FROM REMOTE AND SELECT THE MOST RECENT
     this.firestore
       .doc<Sheet>("characters/" + character.id)
       .ref.get()
-      .then((documentSnapShot: DocumentSnapshot<Sheet>) => {
+      .then((documentSnapShot: DocumentSnapshot<any>) => {
         if (documentSnapShot.exists) {
           // Compare dates
           const data = documentSnapShot.data();
-          if (moment(data.updateDate).isAfter(character.updateDate)) {
+          console.log("Store document found in firestore", data);
+          // Firestore bug ? Convert Date object into Timestamp object
+          const firestoreUpdateDate = moment(data.updateDate).isValid()
+            ? moment(data.updateDate)
+            : moment(data.updateDate.toDate());
+          const localstorageUpdateDate = moment(character.updateDate);
+
+          console.log(
+            "Firestore and localstore update date = ",
+            firestoreUpdateDate.toLocaleString(),
+            localstorageUpdateDate.toLocaleString()
+          );
+
+          if (firestoreUpdateDate.isAfter(localstorageUpdateDate)) {
+            console.log(
+              "Store document found in firestore more recent than localstorage",
+              data
+            );
             this.setState({ character: data });
           }
         }
@@ -40,17 +62,32 @@ export class SheetStore extends Store<SheetState> {
           state.character.updateDate = new Date();
           console.log("persist in localstorage");
           localStorage.setItem("character", JSON.stringify(state.character));
-          this.updateFirestore(state.character);
+          return Promise.resolve(this.updateFirestore(state.character)).catch(
+            (e) => {
+              console.error(
+                "Failed to persist to firestore",
+                state.character.id,
+                state.character
+              );
+            }
+          );
         });
       });
   }
 
-  updateFirestore(character: Sheet) {
+  updateFirestore(character: Sheet): Promise<any> {
+    console.log("Start firestore updating process for", character);
     if (character.name && character.name !== "") {
-      this.firestore.doc("characters/" + character.id).set(character);
-      console.log("Character persisted in firestore");
+      return this.firestore
+        .doc("characters/" + character.id)
+        .set({ ...character })
+        .then((d) => {
+          console.log("Character persisted in firestore");
+        });
     } else {
-      console.log("Character without name - not updating firestore");
+      return Promise.resolve((d) =>
+        console.log("Character without name - not updating firestore")
+      );
     }
   }
 
