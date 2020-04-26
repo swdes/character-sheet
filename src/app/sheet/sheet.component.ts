@@ -10,7 +10,7 @@ import { saveAs } from "file-saver";
 import { SheetStore } from "../store/sheet-store";
 import { Sheet } from "../model/sheet";
 
-import RACES from "../model/race.json";
+import { Race } from "../model/race.js";
 import { alignments } from "../model/alignment";
 
 import {
@@ -33,7 +33,7 @@ export class SheetComponent implements OnInit, OnChanges {
   thiefLevel: number;
 
   // refs list
-  races = RACES;
+  races = Object.values(Race);
   alignments = alignments;
   standardColumns = ["label", "score"];
 

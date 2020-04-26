@@ -1,6 +1,6 @@
 import { Spell } from "./spell";
 import { Class } from "./class";
-import { thiefSkills } from "./thiefSkills";
+import { ThiefSkill } from "./thiefSkills";
 import { SAVING_THROWS } from "./savingThrows";
 import { Attributes } from "./attributes";
 import * as uuid from "uuid";
@@ -103,7 +103,7 @@ export function getNewSheet(name = ""): Sheet {
         },
       },
     },
-    thiefSkills: thiefSkills.map((saving) => ({ label: saving, score: 0 })),
+    //thiefSkills: thiefSkills.map((saving) => ({ label: saving, score: 0 })),
     savingThrows: SAVING_THROWS.map((saving) => ({ label: saving, score: 20 })),
     AC: {
       score: 10,

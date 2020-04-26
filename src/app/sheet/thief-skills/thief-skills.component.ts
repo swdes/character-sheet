@@ -1,6 +1,6 @@
-import { Component, OnInit, Input, OnChanges } from "@angular/core";
-import { SheetStore } from "../../store/sheet-store";
-import { thiefSkills as THIEFSKILLS } from "../../model/thiefSkills";
+import { Component, Input, OnChanges } from "@angular/core";
+import { getThiefSkills } from "../../model/thiefSkills";
+import { Race } from "../../model/race";
 
 @Component({
   selector: "sheet-thief-skills",
@@ -9,25 +9,21 @@ import { thiefSkills as THIEFSKILLS } from "../../model/thiefSkills";
 })
 export class ThiefSkillsComponent implements OnChanges {
   @Input()
+  thiefLevel: number = 1;
+  @Input()
+  dexterityScore;
+  @Input()
+  race: Race = Race.HUMAN;
+
   thiefSkills;
 
-  constructor(private store: SheetStore) {}
+  constructor() {}
 
   ngOnChanges(): void {
-    this.thiefSkills = THIEFSKILLS.map((skill) => {
-      const foundSkill = this.thiefSkills.filter(
-        (item) => item.label === skill
-      );
-      return {
-        label: skill,
-        score:
-          (foundSkill && foundSkill.length > 0 && foundSkill[0].score) || 0,
-      };
-    });
-  }
-  updateStore() {
-    console.log("update thiefSkills", this.thiefSkills);
-    //this.notebookChange.emit(this._notebook);
-    this.store.updateSub("thiefSkills", this.thiefSkills);
+    this.thiefSkills = getThiefSkills(
+      this.thiefLevel,
+      parseInt(this.dexterityScore),
+      this.race
+    );
   }
 }

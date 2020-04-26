@@ -91,7 +91,9 @@
     <sheet-thief-skills
       fxFlex="0 1 calc(33.3% - 20px)"
       *ngIf="thiefLevel"
-      [(thiefSkills)]="character.thiefSkills"
+      [(thiefLevel)]="thiefLevel"
+      [(race)]="character.race"
+      [(dexterityScore)]="character.attributes.dexterity.score"
     ></sheet-thief-skills>
     <sheet-vaderetro
       fxFlex="0 1 calc(33.3% - 20px)"
