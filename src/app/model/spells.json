@@ -1,0 +1,2486 @@
+[
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Bless",
+    "label": "Bless",
+    "class": "Cleric",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Augury",
+    "label": "Augury",
+    "class": "Cleric",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Animate Dead",
+    "label": "Animate Dead",
+    "class": "Cleric",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Cure Serious Wounds",
+    "label": "Cure Serious Wounds",
+    "class": "Cleric",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Atonement",
+    "label": "Atonement",
+    "class": "Cleric",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Aerial Servant",
+    "label": "Aerial Servant",
+    "class": "Cleric",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Astral Spell",
+    "label": "Astral Spell",
+    "class": "Cleric",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Command",
+    "label": "Command",
+    "class": "Cleric",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Chant",
+    "label": "Chant",
+    "class": "Cleric",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Continual Light",
+    "label": "Continual Light",
+    "class": "Cleric",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Detect Lie",
+    "label": "Detect Lie",
+    "class": "Cleric",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Commune",
+    "label": "Commune",
+    "class": "Cleric",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Animate Object",
+    "label": "Animate Object",
+    "class": "Cleric",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Control Weather",
+    "label": "Control Weather",
+    "class": "Cleric",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Create Water",
+    "label": "Create Water",
+    "class": "Cleric",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Detect Charm",
+    "label": "Detect Charm",
+    "class": "Cleric",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Create Food & Water",
+    "label": "Create Food & Water",
+    "class": "Cleric",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Divination",
+    "label": "Divination",
+    "class": "Cleric",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Cure Critical Wounds",
+    "label": "Cure Critical Wounds",
+    "class": "Cleric",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Blade Barrier",
+    "label": "Blade Barrier",
+    "class": "Cleric",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Earthquake",
+    "label": "Earthquake",
+    "class": "Cleric",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Cure Light Wounds",
+    "label": "Cure Light Wounds",
+    "class": "Cleric",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Find Traps",
+    "label": "Find Traps",
+    "class": "Cleric",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Cure Blindness",
+    "label": "Cure Blindness",
+    "class": "Cleric",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Exorcise",
+    "label": "Exorcise",
+    "class": "Cleric",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Dispel Evil",
+    "label": "Dispel Evil",
+    "class": "Cleric",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Conjure Animals",
+    "label": "Conjure Animals",
+    "class": "Cleric",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Gate",
+    "label": "Gate",
+    "class": "Cleric",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Detect Evil",
+    "label": "Detect Evil",
+    "class": "Cleric",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Hold Person",
+    "label": "Hold Person",
+    "class": "Cleric",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Cure Disease",
+    "label": "Cure Disease",
+    "class": "Cleric",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Lower Water",
+    "label": "Lower Water",
+    "class": "Cleric",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Flame Strike",
+    "label": "Flame Strike",
+    "class": "Cleric",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Find The Path",
+    "label": "Find The Path",
+    "class": "Cleric",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Holy (Unholy) Word",
+    "label": "Holy (Unholy) Word",
+    "class": "Cleric",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Detect Magic",
+    "label": "Detect Magic",
+    "class": "Cleric",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Know Alignment",
+    "label": "Know Alignment",
+    "class": "Cleric",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Dispel Magic",
+    "label": "Dispel Magic",
+    "class": "Cleric",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Neutralize Poison",
+    "label": "Neutralize Poison",
+    "class": "Cleric",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Insect Plague",
+    "label": "Insect Plague",
+    "class": "Cleric",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Heal",
+    "label": "Heal",
+    "class": "Cleric",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Regenerate",
+    "label": "Regenerate",
+    "class": "Cleric",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Light",
+    "label": "Light",
+    "class": "Cleric",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Resist Fire",
+    "label": "Resist Fire",
+    "class": "Cleric",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Feign Death",
+    "label": "Feign Death",
+    "class": "Cleric",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Protection From Evil, 10' Radius",
+    "label": "Prot. from Evil 10' r.",
+    "class": "Cleric",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Plane Shift",
+    "label": "Plane Shift",
+    "class": "Cleric",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Part Water",
+    "label": "Part Water",
+    "class": "Cleric",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Restoration",
+    "label": "Restoration",
+    "class": "Cleric",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Protection From Evil",
+    "label": "Protection From Evil",
+    "class": "Cleric",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Silence, 15' Radius",
+    "label": "Silence 15' Radius",
+    "class": "Cleric",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Glyph Of Warding",
+    "label": "Glyph Of Warding",
+    "class": "Cleric",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Speak With Plants",
+    "label": "Speak With Plants",
+    "class": "Cleric",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Quest",
+    "label": "Quest",
+    "class": "Cleric",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Speak With Monsters",
+    "label": "Speak With Monsters",
+    "class": "Cleric",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Resurrection",
+    "label": "Resurrection",
+    "class": "Cleric",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Purify Food & Drink",
+    "label": "Purify Food & Drink",
+    "class": "Cleric",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Slow Poison",
+    "label": "Slow Poison",
+    "class": "Cleric",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Locate Object",
+    "label": "Locate Object",
+    "class": "Cleric",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Sticks To Snakes",
+    "label": "Sticks To Snakes",
+    "class": "Cleric",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Raise Dead",
+    "label": "Raise Dead",
+    "class": "Cleric",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Stone Tell",
+    "label": "Stone Tell",
+    "class": "Cleric",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Symbol",
+    "label": "Symbol",
+    "class": "Cleric",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Remove Fear",
+    "label": "Remove Fear",
+    "class": "Cleric",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Snake Charm",
+    "label": "Snake Charm",
+    "class": "Cleric",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Prayer",
+    "label": "Prayer",
+    "class": "Cleric",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Tongues",
+    "label": "Tongues",
+    "class": "Cleric",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#True Seeing",
+    "label": "True Seeing",
+    "class": "Cleric",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Word Of Recall",
+    "label": "Word Of Recall",
+    "class": "Cleric",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Wind Walk",
+    "label": "Wind Walk",
+    "class": "Cleric",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Resist Cold",
+    "label": "Resist Cold",
+    "class": "Cleric",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Speak With Animals",
+    "label": "Speak With Animals",
+    "class": "Cleric",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Remove Curse",
+    "label": "Remove Curse",
+    "class": "Cleric",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Sanctuary",
+    "label": "Sanctuary",
+    "class": "Cleric",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Spiritual Hammer",
+    "label": "Spiritual Hammer",
+    "class": "Cleric",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Speak With The Dead",
+    "label": "Speak With Dead",
+    "class": "Cleric",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Animal Friendship",
+    "label": "Animal Friendship",
+    "class": "Druid",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Barkskin",
+    "label": "Barkskin",
+    "class": "Druid",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Call Lightning",
+    "label": "Call Lightning",
+    "class": "Druid",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Animal Summoning I",
+    "label": "Animal Summoning I",
+    "class": "Druid",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Animal Growth",
+    "label": "Animal Growth",
+    "class": "Druid",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Animal Summoning III",
+    "label": "Animal Summoning III",
+    "class": "Druid",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Animate Rock",
+    "label": "Animate Rock",
+    "class": "Druid",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Detect Magic",
+    "label": "Detect Magic",
+    "class": "Druid",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Charm Person Or Mammal",
+    "label": "Charm Person/Mammal",
+    "class": "Druid",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Cure Disease",
+    "label": "Cure Disease",
+    "class": "Druid",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Call Woodland Beings",
+    "label": "Call Woodland Beings",
+    "class": "Druid",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Animal Summoning II",
+    "label": "Animal Summoning II",
+    "class": "Druid",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Anti-Animal Shell",
+    "label": "Anti-Animal Shell",
+    "class": "Druid",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Chariot Of Sustarre",
+    "label": "Chariot Of Sustarre",
+    "class": "Druid",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Detect Snares & Pits",
+    "label": "Detect Snares & Pits",
+    "class": "Druid",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Create Water",
+    "label": "Create Water",
+    "class": "Druid",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Hold Animal",
+    "label": "Hold Animal",
+    "class": "Druid",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Control Temperature 10' Radius",
+    "label": "Control Temperature",
+    "class": "Druid",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Anti-Plant Shell",
+    "label": "Anti-Plant Shell",
+    "class": "Druid",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Conjure Fire Elemental",
+    "label": "Conjure Fire Elemental",
+    "class": "Druid",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Confusion",
+    "label": "Confusion",
+    "class": "Druid",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Entangle",
+    "label": "Entangle",
+    "class": "Druid",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Cure Light Wounds",
+    "label": "Cure Light Wounds",
+    "class": "Druid",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Neutralize Poison",
+    "label": "Neutralize Poison",
+    "class": "Druid",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Cure Serious Wounds",
+    "label": "Cure Serious Wounds",
+    "class": "Druid",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Commune With Nature",
+    "label": "Commune With Nature",
+    "class": "Druid",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Cure Critical Wounds",
+    "label": "Cure Critical Wounds",
+    "class": "Druid",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Conjure Earth Elemental",
+    "label": "Conjure Earth Elemental",
+    "class": "Druid",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Faerie Fire",
+    "label": "Faerie Fire",
+    "class": "Druid",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Feign Death",
+    "label": "Feign Death",
+    "class": "Druid",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Plant Growth",
+    "label": "Plant Growth",
+    "class": "Druid",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Dispel Magic",
+    "label": "Dispel Magic",
+    "class": "Druid",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Control Winds",
+    "label": "Control Winds",
+    "class": "Druid",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Feeblemind",
+    "label": "Feeblemind",
+    "class": "Druid",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Control Weather",
+    "label": "Control Weather",
+    "class": "Druid",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Invisibility To Animals",
+    "label": "Invisibility To Animals",
+    "class": "Druid",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Fire Trap",
+    "label": "Fire Trap",
+    "class": "Druid",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Protection From Fire",
+    "label": "Protection From Fire",
+    "class": "Druid",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Hallucinatory Forest",
+    "label": "Hallucinatory Forest",
+    "class": "Druid",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Insect Plague",
+    "label": "Insect Plague",
+    "class": "Druid",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Fire Seeds",
+    "label": "Fire Seeds",
+    "class": "Druid",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Creeping Doom",
+    "label": "Creeping Doom",
+    "class": "Druid",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Locate Animals",
+    "label": "Locate Animals",
+    "class": "Druid",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Heat Metal",
+    "label": "Heat Metal",
+    "class": "Druid",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Pyrotechnics",
+    "label": "Pyrotechnics",
+    "class": "Druid",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Hold Plant",
+    "label": "Hold Plant",
+    "class": "Druid",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Pass Plant",
+    "label": "Pass Plant",
+    "class": "Druid",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Transport Via Plants",
+    "label": "Transport Via Plants",
+    "class": "Druid",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Finger Of Death",
+    "label": "Finger Of Death",
+    "class": "Druid",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Pass Without Trace",
+    "label": "Pass Without Trace",
+    "class": "Druid",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Locate Plants",
+    "label": "Locate Plants",
+    "class": "Druid",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Snare",
+    "label": "Snare",
+    "class": "Druid",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Plant Door",
+    "label": "Plant Door",
+    "class": "Druid",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Sticks To Snakes",
+    "label": "Sticks To Snakes",
+    "class": "Druid",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Turn Wood",
+    "label": "Turn Wood",
+    "class": "Druid",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Fire Storm",
+    "label": "Fire Storm",
+    "class": "Druid",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Predict Weather",
+    "label": "Predict Weather",
+    "class": "Druid",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Obscurement",
+    "label": "Obscurement",
+    "class": "Druid",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Stone Shape",
+    "label": "Stone Shape",
+    "class": "Druid",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Produce Fire",
+    "label": "Produce Fire",
+    "class": "Druid",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Transmute Rock To Mud",
+    "label": "Trans Rock To Mud",
+    "class": "Druid",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Wall Of Thorns",
+    "label": "Wall Of Thorns",
+    "class": "Druid",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Reincarnate",
+    "label": "Reincarnate",
+    "class": "Druid",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Purify Water",
+    "label": "Purify Water",
+    "class": "Druid",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Produce Flame",
+    "label": "Produce Flame",
+    "class": "Druid",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Summon Insects",
+    "label": "Summon Insects",
+    "class": "Druid",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Protection From Lightning",
+    "label": "Prot. From Lightning",
+    "class": "Druid",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Wall Of Fire",
+    "label": "Wall Of Fire",
+    "class": "Druid",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Weather Summoning",
+    "label": "Weather Summoning",
+    "class": "Druid",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Transmute Metal To Wood",
+    "label": "Trans Metal To Wood",
+    "class": "Druid",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Shillelagh",
+    "label": "Shillelagh",
+    "class": "Druid",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Trip",
+    "label": "Trip",
+    "class": "Druid",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Tree",
+    "label": "Tree",
+    "class": "Druid",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Repel Insects",
+    "label": "Repel Insects",
+    "class": "Druid",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Speak With Animals",
+    "label": "Speak With Animals",
+    "class": "Druid",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Warp Wood",
+    "label": "Warp Wood",
+    "class": "Druid",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Water Breathing",
+    "label": "Water Breathing",
+    "class": "Druid",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Speak With Plants",
+    "label": "Speak With Plants",
+    "class": "Druid",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Audible Glamour",
+    "label": "Audible Glamour",
+    "class": "Illusionist",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Blindness",
+    "label": "Blindness",
+    "class": "Illusionist",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Continual Darkness",
+    "label": "Continual Darkness",
+    "class": "Illusionist",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Confusion",
+    "label": "Confusion",
+    "class": "Illusionist",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Chaos",
+    "label": "Chaos",
+    "class": "Illusionist",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Conjure Animals",
+    "label": "Conjure Animals",
+    "class": "Illusionist",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Alter Reality",
+    "label": "Alter Reality",
+    "class": "Illusionist",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Change Self",
+    "label": "Change Self",
+    "class": "Illusionist",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Blur",
+    "label": "Blur",
+    "class": "Illusionist",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Continual Light",
+    "label": "Continual Light",
+    "class": "Illusionist",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Dispel Exhaustion",
+    "label": "Dispel Exhaustion",
+    "class": "Illusionist",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Demi-Shadow Monsters",
+    "label": "Demi-Shadow Monsters",
+    "class": "Illusionist",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Demi-Shadow Magic",
+    "label": "Demi-Shadow Magic",
+    "class": "Illusionist",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Astral Spell",
+    "label": "Astral Spell",
+    "class": "Illusionist",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Colour Spray",
+    "label": "Colour Spray",
+    "class": "Illusionist",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Deafness",
+    "label": "Deafness",
+    "class": "Illusionist",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Dispel Illusion",
+    "label": "Dispel Illusion",
+    "class": "Illusionist",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Emotion",
+    "label": "Emotion",
+    "class": "Illusionist",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Major Creation",
+    "label": "Major Creation",
+    "class": "Illusionist",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Mass Suggestion",
+    "label": "Mass Suggestion",
+    "class": "Illusionist",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Prismatic Spray",
+    "label": "Prismatic Spray",
+    "class": "Illusionist",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Dancing Lights",
+    "label": "Dancing Lights",
+    "class": "Illusionist",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Detect Magic",
+    "label": "Detect Magic",
+    "class": "Illusionist",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Fear",
+    "label": "Fear",
+    "class": "Illusionist",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Improved Invisibility",
+    "label": "Improved Invisibility",
+    "class": "Illusionist",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Maze",
+    "label": "Maze",
+    "class": "Illusionist",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Permanent Illusion",
+    "label": "Permanent Illusion",
+    "class": "Illusionist",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Prismatic Wall",
+    "label": "Prismatic Wall",
+    "class": "Illusionist",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Darkness",
+    "label": "Darkness",
+    "class": "Illusionist",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Fog Cloud",
+    "label": "Fog Cloud",
+    "class": "Illusionist",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Hallucinatory Terrain",
+    "label": "Hallucinatory Terrain",
+    "class": "Illusionist",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Massmorph",
+    "label": "Massmorph",
+    "class": "Illusionist",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Projected Image",
+    "label": "Projected Image",
+    "class": "Illusionist",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Programmed Illusion",
+    "label": "Programmed Illusion",
+    "class": "Illusionist",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Vision",
+    "label": "Vision",
+    "class": "Illusionist",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Detect Illusion",
+    "label": "Detect Illusion",
+    "class": "Illusionist",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Hypnotic Pattern",
+    "label": "Hypnotic Pattern",
+    "class": "Illusionist",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Illusionary Script",
+    "label": "Illusionary Script",
+    "class": "Illusionist",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Minor Creation",
+    "label": "Minor Creation",
+    "class": "Illusionist",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Shadow Door",
+    "label": "Shadow Door",
+    "class": "Illusionist",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Shades",
+    "label": "Shades",
+    "class": "Illusionist",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#First Level Magic-User Spells",
+    "label": "First Level Magic-User Spells",
+    "class": "Illusionist",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Detect Invisibility",
+    "label": "Detect Invisibility",
+    "class": "Illusionist",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Improved Phantasmal Force",
+    "label": "Improved Phantasmal Force",
+    "class": "Illusionist",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Invisibility, 10' Radius",
+    "label": "Invisibility 10' Radius",
+    "class": "Illusionist",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Phantasmal Killer",
+    "label": "Phantasmal Killer",
+    "class": "Illusionist",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Shadow Magic",
+    "label": "Shadow Magic",
+    "class": "Illusionist",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#True Sight",
+    "label": "True Sight",
+    "class": "Illusionist",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Gaze Reflection",
+    "label": "Gaze Reflection",
+    "class": "Illusionist",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Invisibility",
+    "label": "Invisibility",
+    "class": "Illusionist",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Non-detection",
+    "label": "Non-detection",
+    "class": "Illusionist",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Shadow Monsters",
+    "label": "Shadow Monsters",
+    "class": "Illusionist",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Summon Shadow",
+    "label": "Summon Shadow",
+    "class": "Illusionist",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Veil",
+    "label": "Veil",
+    "class": "Illusionist",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Hypnotism",
+    "label": "Hypnotism",
+    "class": "Illusionist",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Magic Mouth",
+    "label": "Magic Mouth",
+    "class": "Illusionist",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Paralyzation",
+    "label": "Paralyzation",
+    "class": "Illusionist",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Light",
+    "label": "Light",
+    "class": "Illusionist",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Mirror Image",
+    "label": "Mirror Image",
+    "class": "Illusionist",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Rope Trick",
+    "label": "Rope Trick",
+    "class": "Illusionist",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Phantasmal Force",
+    "label": "Phantasmal Force",
+    "class": "Illusionist",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Misdirection",
+    "label": "Misdirection",
+    "class": "Illusionist",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Spectral Force",
+    "label": "Spectral Force",
+    "class": "Illusionist",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Wall Of Fog",
+    "label": "Wall Of Fog",
+    "class": "Illusionist",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Ventriloquism",
+    "label": "Ventriloquism",
+    "class": "Illusionist",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Suggestion",
+    "label": "Suggestion",
+    "class": "Illusionist",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Affect Normal Fires",
+    "label": "Affect Normal Fires",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Audible Glamour",
+    "label": "Audible Glamour",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Blink",
+    "label": "Blink",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Charm Monster",
+    "label": "Charm Monster",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Airy Water",
+    "label": "Airy Water",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Burning Hands",
+    "label": "Burning Hands",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Continual Light",
+    "label": "Continual Light",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Clairaudience",
+    "label": "Clairaudience",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Confusion",
+    "label": "Confusion",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Animal Growth",
+    "label": "Animal Growth",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Charm Person",
+    "label": "Charm Person",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Darkness 15', Radius",
+    "label": "Darkness 15' Radius",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Clairvoyance",
+    "label": "Clairvoyance",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Dig",
+    "label": "Dig",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Animate Dead",
+    "label": "Animate Dead",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Comprehend Languages",
+    "label": "Comprehend Languages",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Detect Evil",
+    "label": "Detect Evil",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Dispel Magic",
+    "label": "Dispel Magic",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Dimension Door",
+    "label": "Dimension Door",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Bigby's Interposing Hand",
+    "label": "Bigby's Interposing Hand",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Dancing Lights",
+    "label": "Dancing Lights",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Detect Invisibility",
+    "label": "Detect Invisibility",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Explosive Runes",
+    "label": "Explosive Runes",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Enchanted Weapon",
+    "label": "Enchanted Weapon",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Cloudkill",
+    "label": "Cloudkill",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Detect Magic",
+    "label": "Detect Magic",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#ESP",
+    "label": "ESP",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Feign Death",
+    "label": "Feign Death",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Extension I",
+    "label": "Extension I",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Conjure Elemental",
+    "label": "Conjure Elemental",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Enlarge",
+    "label": "Enlarge",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Fools Gold",
+    "label": "Fools Gold",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Fireball",
+    "label": "Fireball",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Fear",
+    "label": "Fear",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Cone Of Cold",
+    "label": "Cone Of Cold",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Erase",
+    "label": "Erase",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Forget",
+    "label": "Forget",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Flame Arrow",
+    "label": "Flame Arrow",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Fire Charm",
+    "label": "Fire Charm",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Contact Other Plane",
+    "label": "Contact Other Plane",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Feather Fall",
+    "label": "Feather Fall",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Invisibility",
+    "label": "Invisibility",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Fly",
+    "label": "Fly",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Fire Shield",
+    "label": "Fire Shield",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Distance Distortion",
+    "label": "Distance Distortion",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Find Familiar",
+    "label": "Find Familiar",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Knock",
+    "label": "Knock",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Gust Of Wind",
+    "label": "Gust Of Wind",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Fire Trap",
+    "label": "Fire Trap",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Extension II",
+    "label": "Extension II",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Friends",
+    "label": "Friends",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Leomund's Trap",
+    "label": "Leomund's Trap",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Haste",
+    "label": "Haste",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Fumble",
+    "label": "Fumble",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Feeblemind",
+    "label": "Feeblemind",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Hold Portal",
+    "label": "Hold Portal",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Levitate",
+    "label": "Levitate",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Hold Person",
+    "label": "Hold Person",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Hallucinatory Terrain",
+    "label": "Hallucinatory Terrain",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Hold Monster",
+    "label": "Hold Monster",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Identify",
+    "label": "Identify",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Locate Object",
+    "label": "Locate Object",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Infravision",
+    "label": "Infravision",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Ice Storm",
+    "label": "Ice Storm",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Leomund's Secret Chest",
+    "label": "Leomund's Secret Chest",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Jump",
+    "label": "Jump",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Magic Mouth",
+    "label": "Magic Mouth",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Invisibility 10', Radius",
+    "label": "Invisibility 10' Radius",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Massmorph",
+    "label": "Massmorph",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Magic Jar",
+    "label": "Magic Jar",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Light",
+    "label": "Light",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Mirror Image",
+    "label": "Mirror Image",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Leomund's Tiny Hut",
+    "label": "Leomund's Tiny Hut",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Minor Globe Of Invulnerability",
+    "label": "Minor Globe Of Invulnerability",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Monster Summoning III",
+    "label": "Monster Summoning III",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Magic Missile",
+    "label": "Magic Missile",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Pyrotechnics",
+    "label": "Pyrotechnics",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Lightning Bolt",
+    "label": "Lightning Bolt",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Monster Summoning II",
+    "label": "Monster Summoning II",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Mordenkainen's Faithful Hound",
+    "label": "Mordenkainen's Faithful Hound",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Mending",
+    "label": "Mending",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Ray Of Enfeeblement",
+    "label": "Ray Of Enfeeblement",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Monster Summoning I",
+    "label": "Monster Summoning I",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Plant Growth",
+    "label": "Plant Growth",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Passwall",
+    "label": "Passwall",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Message",
+    "label": "Message",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Rope Trick",
+    "label": "Rope Trick",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Phantasmal Force",
+    "label": "Phantasmal Force",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Polymorph Other",
+    "label": "Polymorph Other",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Stone Shape",
+    "label": "Stone Shape",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Nystul's Magic Aura",
+    "label": "Nystul's Magic Aura",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Scare",
+    "label": "Scare",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#rotection From Evil, 10' Radius",
+    "label": "Protection From Evil 10' Radius",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Polymorph Self",
+    "label": "Polymorph Self",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Telekinesis",
+    "label": "Telekinesis",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Protection From Evil",
+    "label": "Protection From Evil",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Shatter",
+    "label": "Shatter",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Protection From Normal Missiles",
+    "label": "Protection From Normal Missiles",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Rary's Mnemonic Enhancer",
+    "label": "Rary's Mnemonic Enhancer",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Teleport",
+    "label": "Teleport",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Push",
+    "label": "Push",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Stinking Cloud",
+    "label": "Stinking Cloud",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Slow",
+    "label": "Slow",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Remove Curse",
+    "label": "Remove Curse",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Transmute Rock To Mud",
+    "label": "Transmute Rock To Mud",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Read Magic",
+    "label": "Read Magic",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Strength",
+    "label": "Strength",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Suggestion",
+    "label": "Suggestion",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Wall Of Fire",
+    "label": "Wall Of Fire",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Wall Of Force",
+    "label": "Wall Of Force",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Shield",
+    "label": "Shield",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Web",
+    "label": "Web",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Tongues",
+    "label": "Tongues",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Wall Of Ice",
+    "label": "Wall Of Ice",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Wall Of Iron",
+    "label": "Wall Of Iron",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Shocking Grasp",
+    "label": "Shocking Grasp",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Wizard Lock",
+    "label": "Wizard Lock",
+    "class": "Mage",
+    "level": 2
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Water Breathing",
+    "label": "Water Breathing",
+    "class": "Mage",
+    "level": 3
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Wizard Eye",
+    "label": "Wizard Eye",
+    "class": "Mage",
+    "level": 4
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Wall Of Stone",
+    "label": "Wall Of Stone",
+    "class": "Mage",
+    "level": 5
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Sleep",
+    "label": "Sleep",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Spider Climb",
+    "label": "Spider Climb",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Tenser's Floating Disc",
+    "label": "Tenser's Floating Disc",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Unseen Servant",
+    "label": "Unseen Servant",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Ventriloquism",
+    "label": "Ventriloquism",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Write",
+    "label": "Write",
+    "class": "Mage",
+    "level": 1
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Anti-Magic Shell",
+    "label": "Anti-Magic Shell",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Bigby's Grasping Hand",
+    "label": "Bigby's Grasping Hand",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Antipathy/Sympathy",
+    "label": "Antipathy/Sympathy",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Astral Spell",
+    "label": "Astral Spell",
+    "class": "Mage",
+    "level": 9
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Bigby's Forceful Hand",
+    "label": "Bigby's Forceful Hand",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Cacodemon",
+    "label": "Cacodemon",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Bigby's Clenched Fist",
+    "label": "Bigby's Clenched Fist",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Bigby's Crushing Hand",
+    "label": "Bigby's Crushing Hand",
+    "class": "Mage",
+    "level": 9
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Control Weather",
+    "label": "Control Weather",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Charm Plants",
+    "label": "Charm Plants",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Clone",
+    "label": "Clone",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Gate",
+    "label": "Gate",
+    "class": "Mage",
+    "level": 9
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Death Spell",
+    "label": "Death Spell",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Delayed Blast Fireball",
+    "label": "Delayed Blast Fireball",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Glassteel",
+    "label": "Glassteel",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Imprisonment",
+    "label": "Imprisonment",
+    "class": "Mage",
+    "level": 9
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Disintegrate",
+    "label": "Disintegrate",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Drawmij's Instant Summons",
+    "label": "Drawmij's Instant Summons",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Incendiary Cloud",
+    "label": "Incendiary Cloud",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Meteor Swarm",
+    "label": "Meteor Swarm",
+    "class": "Mage",
+    "level": 9
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Enchant An Item",
+    "label": "Enchant An Item",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Duo-Dimension",
+    "label": "Duo-Dimension",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Mass Charm",
+    "label": "Mass Charm",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Monster Summoning VII",
+    "label": "Monster Summoning VII",
+    "class": "Mage",
+    "level": 9
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Extension III",
+    "label": "Extension III",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Limited Wish",
+    "label": "Limited Wish",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Maze",
+    "label": "Maze",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Power Word, Kill",
+    "label": "Power Word, Kill",
+    "class": "Mage",
+    "level": 9
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Geas",
+    "label": "Geas",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Mass Invisibility",
+    "label": "Mass Invisibility",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Mind Blank",
+    "label": "Mind Blank",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Prismatic Sphere",
+    "label": "Prismatic Sphere",
+    "class": "Mage",
+    "level": 9
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Glassee",
+    "label": "Glassee",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Monster Summoning V",
+    "label": "Monster Summoning V",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Monster Summoning VI",
+    "label": "Monster Summoning VI",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Shape Change",
+    "label": "Shape Change",
+    "class": "Mage",
+    "level": 9
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Globe Of Invulnerability",
+    "label": "Globe Of Invulnerability",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Mordenkainen's Sword",
+    "label": "Mordenkainen's Sword",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Otto's Irresistible Dance",
+    "label": "Otto's Irresistible Dance",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Temporal Stasis",
+    "label": "Temporal Stasis",
+    "class": "Mage",
+    "level": 9
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Guards And Wards",
+    "label": "Guards And Wards",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Phase Door",
+    "label": "Phase Door",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Permanency",
+    "label": "Permanency",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Time Stop",
+    "label": "Time Stop",
+    "class": "Mage",
+    "level": 9
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Invisible Stalker",
+    "label": "Invisible Stalker",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Power Word, Stun",
+    "label": "Power Word, Stun",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Polymorph Any Object",
+    "label": "Polymorph Any Object",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Wish",
+    "label": "Wish",
+    "class": "Mage",
+    "level": 9
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Legend Lore",
+    "label": "Legend Lore",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Reverse Gravity",
+    "label": "Reverse Gravity",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Power Word, Blind",
+    "label": "Power Word, Blind",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Lower Water",
+    "label": "Lower Water",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Simulacrum",
+    "label": "Simulacrum",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Serten's Spell Immunity",
+    "label": "Serten's Spell Immunity",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Monster Summoning IV",
+    "label": "Monster Summoning IV",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Statue",
+    "label": "Statue",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Symbol",
+    "label": "Symbol",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Move Earth",
+    "label": "Move Earth",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Vanish",
+    "label": "Vanish",
+    "class": "Mage",
+    "level": 7
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Trap The Soul",
+    "label": "Trap The Soul",
+    "class": "Mage",
+    "level": 8
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Otiluke's Freezing Sphere",
+    "label": "Otiluke's Freezing Sphere",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Part Water",
+    "label": "Part Water",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Project Image",
+    "label": "Project Image",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Reincarnation",
+    "label": "Reincarnation",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Repulsion",
+    "label": "Repulsion",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Spiritwrack",
+    "label": "Spiritwrack",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Stone To Flesh",
+    "label": "Stone To Flesh",
+    "class": "Mage",
+    "level": 6
+  },
+  {
+    "link": "http://pandaria.rpgworlds.info/cant/rules/adnd_spells.htm#Tenser's Transformation",
+    "label": "Tenser's Transformation",
+    "class": "Mage",
+    "level": 6
+  }
+]

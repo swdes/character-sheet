@@ -25,6 +25,7 @@ import { MatGridListModule } from "@angular/material/grid-list";
 import { MatSelectModule } from "@angular/material/select";
 import { MatIconModule } from "@angular/material/icon";
 import { MatDialogModule } from "@angular/material/dialog";
+import { MatCheckboxModule } from "@angular/material/checkbox";
 import { MatBottomSheetModule } from "@angular/material/bottom-sheet";
 
 // Store
@@ -64,6 +65,7 @@ import { LineBreakPipe } from "../lineBreakPipe";
     MatIconModule,
     MatDialogModule,
     MatBottomSheetModule,
+    MatCheckboxModule,
   ],
   providers: [
     SheetStore,

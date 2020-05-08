@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, OnChanges } from "@angular/core";
-import { Spell } from "../../model/spell";
+import { Spell, getSpellList } from "../../model/spell";
 import { SheetStore } from "../../store/sheet-store";
 import {
   animate,
@@ -10,6 +10,7 @@ import {
 } from "@angular/animations";
 import { getSpellPerDay } from "../../model/spellCapabilities";
 import { isNgTemplate } from "@angular/compiler";
+import { compact } from "lodash";
 
 @Component({
   selector: "sheet-spell",
@@ -27,8 +28,9 @@ import { isNgTemplate } from "@angular/compiler";
   ],
 })
 export class SpellComponent implements OnChanges {
-  @Input()
-  spells: Array<Spell> = [];
+  Arr: Array<number>;
+  spells;
+
   @Input()
   class;
   @Input()
@@ -56,31 +58,56 @@ export class SpellComponent implements OnChanges {
         return {
           label: item.label,
           table,
+          maxSpellLevel: table && compact(table).length,
         };
       })
       .filter((obj) => obj.table);
+
+    // get spell list
+    this.spells = getSpellList(
+      compact(
+        this.class.map((cl) => {
+          const foundSpellPerDayItem = this.spellPerDay.find(
+            (item) => item.label === cl.label
+          );
+          return (
+            foundSpellPerDayItem && {
+              ...cl,
+              maxSpellLevel: foundSpellPerDayItem.maxSpellLevel,
+            }
+          );
+        })
+      )
+    ).map((spell: Spell) => ({
+      ...spell,
+      maxUsage: Array(
+        this.spellPerDay.find((item) => item.label === spell.class).table[
+          spell.level - 1
+        ]
+      ).fill(1),
+    }));
   }
 
-  addSpell(): void {
-    this.spells = [
-      ...this.spells,
-      {
-        class: this.spells[0].class,
-        label: "",
-        level: 1,
-        components: "",
-        description:
-          "Un rayon s'échappe de la bite du magicien pour foudrayer toutes les succubes dans un rayon de 10''",
-      },
-    ];
-    console.log("new row added", this.spells);
-  }
+  // addSpell(): void {
+  //   this.spells = [
+  //     ...this.spells,
+  //     {
+  //       class: this.spells[0].class,
+  //       label: "",
+  //       level: 1,
+  //       components: "",
+  //       description:
+  //         "Un rayon s'échappe de la bite du magicien pour foudrayer toutes les succubes dans un rayon de 10''",
+  //     },
+  //   ];
+  //   console.log("new row added", this.spells);
+  // }
 
-  removeSpell(index: number): void {
-    var temp = [...this.spells];
-    temp.splice(index, 1);
-    this.spells = temp;
-  }
+  // removeSpell(index: number): void {
+  //   var temp = [...this.spells];
+  //   temp.splice(index, 1);
+  //   this.spells = temp;
+  // }
 
   updateSpells() {
     //console.log("update notebook");

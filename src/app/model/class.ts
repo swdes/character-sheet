@@ -4,6 +4,7 @@ export interface Class {
   advancementTable?: Array<any>;
   level?: number;
   rules?: string;
+  maxSpellLevel?: number;
 }
 
 const CLASS_TYPES = {

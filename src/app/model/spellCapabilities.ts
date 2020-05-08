@@ -76,5 +76,6 @@ export function getSpellPerDay(
       return baseNumber + bonus;
     });
   }
+  // TODO mage/illusionist
   return null;
 }
